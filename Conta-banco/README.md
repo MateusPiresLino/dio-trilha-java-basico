@@ -1,18 +1,25 @@
-## Getting Started
+# 💻 Desafio: ContaBanco (Java)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é um exercício proposto no módulo de **Sintaxe Java** da trilha Santander na DIO.
 
-## Folder Structure
+O objetivo é praticar a leitura de dados via terminal com a classe `Scanner`, declaração de variáveis, concatenação e impressão de dados.
 
-The workspace contains two folders by default, where:
+## 🧾 Requisitos do desafio
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Criar um projeto Java com uma classe `ContaTerminal`.
+- Receber do usuário via terminal:
+  - Número da conta (int)
+  - Agência (String)
+  - Nome do cliente (String)
+  - Saldo (double)
+- Exibir uma mensagem formatada com os dados inseridos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## ▶️ Como executar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Clone o repositório
+2. Compile e execute `ContaTerminal.java` com uma JDK 11+ instalada.
+3. Digite os dados conforme solicitado no terminal.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+📌 Exercício simples, mas muito útil para consolidar o uso de `Scanner`, `main`, e tipos básicos em Java.
